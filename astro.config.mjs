@@ -1,7 +1,13 @@
-import { defineConfig } from 'astro/config';
+// @ts-check
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
 
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://tassio-code.github.io/portfolio-tassio',
-  base: '/portfolio-tassio',
-});
+  output: "static",
+  base: "/portfolio-tassio/",
 
+  integrations: [
+    tailwind()
+  ],
+});
