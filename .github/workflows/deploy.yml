@@ -17,7 +17,7 @@ jobs:
       - run: npm run build
       - uses: actions/upload-pages-artifact@v2
         with:
-          path: ./dist
+          path: dist
 
   deploy:
     needs: build
@@ -29,6 +29,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy
+      - name: Deploy 🚀
         id: deployment
         uses: actions/deploy-pages@v2
