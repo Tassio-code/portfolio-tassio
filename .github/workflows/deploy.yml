@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4 # Versão atualizada
+      - uses: actions/checkout@v4 # ATUALIZADO para v4
       - name: Setup Node.js
-        uses: actions/setup-node@v4 # Versão atualizada
+        uses: actions/setup-node@v4 # ATUALIZADO para v4
         with:
           node-version: '18' 
-          
+
       - name: Install dependencies and Build
         run: |
           npm install
