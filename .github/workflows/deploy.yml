@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main ] # Roda o deploy sempre que houver push para a branch principal
 
 jobs:
   deploy:
@@ -16,13 +16,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4 # Versão mais recente e estável
         with:
           submodules: true
           fetch-depth: 0
 
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v4 # Versão mais recente e estável
         with:
           node-version: 18
 
@@ -33,13 +33,13 @@ jobs:
         run: npm run build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v3 # Configura o ambiente de publicação
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Este é o comando que estava dando erro, mas agora é suportado pelo GitHub com a nova estrutura.
+        uses: actions/upload-pages-artifact@v3 # Este é o comando que estava dando erro, mas agora é suportado pela estrutura Actions
         with:
           path: ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v3 # Ação final de deploy
