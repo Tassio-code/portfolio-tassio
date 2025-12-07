@@ -13,7 +13,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
     >
       <div class="flex flex-col gap-4">
         <h3 class="text-2xl font-bold text-gray-800">
-          {siteConfig.name}
+          {siteConfig.nome}
         </h3>
         <p class="text-base text-gray-600">
           {siteConfig.title}
@@ -126,7 +126,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           <a
             href="#about"
             class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-            >About</a
+            >Sobre mim</a
           >
           {
             hasProjects && (
@@ -144,7 +144,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 href="#experience"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Experience
+                Experiencia
               </a>
             )
           }
@@ -154,14 +154,14 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 href="#education"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
-                Education
+               Educação
               </a>
             )
           }
         </nav>
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}
-          {siteConfig.name}. All rights reserved.
+          {siteConfig.nome}. Seus direitos Reservados.
         </p>
       </div>
     </div>

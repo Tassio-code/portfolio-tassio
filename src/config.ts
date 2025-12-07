@@ -1,91 +1,72 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  nome: "Tasssio Medrado",
+  title: "Estudante de Engenharia de Software",
+  description: "Portfolio website de Tassio Medrado",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "tassiomedrado8@gmail.com",
+    linkedin: "https://www.linkedin.com/in/tassio-medrado-de-oliveira-b176a22ab",
+    twitter: "",
+    github: "https://github.com/Tassio-code",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Estudante de Engenharia de Software com experincia prtica em suporte tcnico, manutenço de computadores e gesto de inventrio de TI. Conhecimentos em HTML, CSS e ferramentas de produtividade. Busco oportunidade para aplicar habilidades tcnicas e desenvolver competncias em desenvolvimento de software, Suporte e Administraço de sistemas, Busco ampliar meus conhecimentos tcnicos, adquirindo mais experincia e contribuindo ativamente para o sucesso da equipe.",
+  skills: ["HTML", "CSS", "PHP", "Python", "Redes", "Design"],
   projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+    //{
+      //name: "AI Dev Roundup Newsletter",
+      //description:
+        //"One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+      //link: "https://aidevroundup.com/?ref=devportfolio",
+      //skills: ["React", "Node.js", "AWS"],
+    //},
+    //{
+      //name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      //description:
+        //"Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+      //link: "https://fullstackextensions.com/?ref=devportfolio",
+      //skills: ["React", "Node.js", "AWS"],
+   // },
+    //{
+      //name: "ExtensionKit",
+     //description:
+      //  "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+      //link: "https://extensionkit.io/?ref=devportfolio",
+      //skills: ["React", "Node.js", "AWS"],
+    //},
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      Empresa: "Transoeste logistica",
+      title: "Jovem aprendiz, setorr TI",
+      dateRange: "02/2024 - 05/2025",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Atuação no suporte técnico e administrativo de tecnologia da informação",
+        "foco em manutenção de computadores, instalação de softwares, atendimento a usuários",
+        "apoio na gestão de sistemas de transporte e organização de dados administrativos.",
       ],
     },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
+   
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      Universidade: "Universidade Federal de Rondonópolis",
+      degree: "Bacharelado em engenharia de Software",
+      dateRange: "2025 - 2029",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Aprendo e aplico linguagens de programação para criar sistemas, sites, APIs e aplicações, sempre buscando soluções eficientes e bem estruturadas.",
+        "Trabalho com lógica, algorítmos e boas práticas para identificar problemas, propor soluções e otimizar o funcionamento de softwares",
+        "Crio diagramas, documentos técnicos e projetos de software utilizando metodologias como Scrum e Kanban para organizar e estruturar aplicações.",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      instituição: "Escola Técnica Estadual de Rondonópolis",
+      degree: "Programação web",
+      dateRange: "2022",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Conhecimento em desenvolvimento front-end (HTML, CSS, JavaScript)",
+        "back-end (APIs, bancos de dados e integração de sistemas)",
+        "criação de sites responsivos e aplicações web completas, versionamento com Git/GitHub e boas práticas de programação.",
       ],
     },
   ],
